@@ -1,6 +1,50 @@
+/* CSS reset 
+	(all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+/* General styles 
+	(the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
+*/
+
 body {
     background-color: LightGray;
+    font-size: 16px;
+}
+element.style {
+
+}
+.top-navigaton .logo {
+	height: 375rem;
 }
 div {
     border: 1px solid Chocolate;
 }
+
+/* Header styles 
+	(all the styles inside the < header > or < nav > tags) 
+*/
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+/* Content styles 
+	(all the styles inside the < sections > or < aside > tags)
+*/
+
+
+/* Footer styles 
+	(all the styles inside the < footer > tag)
+*/
+
+
+/* Responsive styles 
+	(the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
+*/
